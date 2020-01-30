@@ -16,6 +16,9 @@ mono.com.airbnb.lottie.OnCompositionLoadedListenerImplementor;mono.com.airbnb.lo
 Lottie.Forms.Droid.AnimationViewRenderer, Lottie.Forms.Droid;crc64b3d23f1dc8e615a4.AnimationViewRenderer
 Lottie.Forms.Droid.AnimationViewRenderer;crc64b3d23f1dc8e615a4.AnimationViewRenderer
 lottie.forms.droid.AnimationViewRenderer;crc64b3d23f1dc8e615a4.AnimationViewRenderer
+ProgressRingControl.Forms.Plugin.Android.ProgressRingRenderer, ProgressRing.Forms.Plugin.Android;crc645826731010de2e56.ProgressRingRenderer
+ProgressRingControl.Forms.Plugin.Android.ProgressRingRenderer;crc645826731010de2e56.ProgressRingRenderer
+progressringcontrol.forms.plugin.android.ProgressRingRenderer;crc645826731010de2e56.ProgressRingRenderer
 SkiaSharp.Views.Android.SKCanvasView, SkiaSharp.Views.Android;crc648e35430423bd4943.SKCanvasView
 SkiaSharp.Views.Android.SKCanvasView;crc648e35430423bd4943.SKCanvasView
 skiasharp.views.android.SKCanvasView;crc648e35430423bd4943.SKCanvasView

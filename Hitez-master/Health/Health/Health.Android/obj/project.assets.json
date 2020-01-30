@@ -125,6 +125,20 @@
           "lib/MonoAndroid10/_._": {}
         }
       },
+      "Xam.Plugins.Forms.ProgressRing/0.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.4.247"
+        },
+        "compile": {
+          "lib/MonoAndroid10/ProgressRing.Forms.Plugin.Android.dll": {},
+          "lib/MonoAndroid10/ProgressRing.Forms.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/ProgressRing.Forms.Plugin.Android.dll": {},
+          "lib/MonoAndroid10/ProgressRing.Forms.Plugin.dll": {}
+        }
+      },
       "Xam.Plugins.XamJam.Screen/1.0.7": {
         "type": "package",
         "compile": {
@@ -932,6 +946,7 @@
           "Com.Airbnb.Xamarin.Forms.Lottie": "2.0.0",
           "Forms.Controls.FlexButton": "0.11.0",
           "Microcharts.Forms": "0.6.2",
+          "Xam.Plugins.Forms.ProgressRing": "0.1.2",
           "Xam.Plugins.XamJam.Screen": "1.0.7",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.908675",
@@ -1316,6 +1331,22 @@
         "system.numerics.vectors.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Xam.Plugins.Forms.ProgressRing/0.1.2": {
+      "sha512": "TqxIQo9uiq0EXPSIet8eouoF0Vs1Al30Urd++LXkH2lCQPMJzr5aCrwnCrTi9/4V229njCgUw53+Au6xWbZwHg==",
+      "type": "package",
+      "path": "xam.plugins.forms.progressring/0.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/ProgressRing.Forms.Plugin.Android.dll",
+        "lib/MonoAndroid10/ProgressRing.Forms.Plugin.dll",
+        "lib/Xamarin.iOS10/ProgressRing.Forms.Plugin.dll",
+        "lib/Xamarin.iOS10/ProgressRing.Forms.Plugin.iOS.dll",
+        "lib/portable-net45+wp80+win8+wpa81/ProgressRing.Forms.Plugin.dll",
+        "xam.plugins.forms.progressring.0.1.2.nupkg.sha512",
+        "xam.plugins.forms.progressring.nuspec"
       ]
     },
     "Xam.Plugins.XamJam.Screen/1.0.7": {
@@ -2439,6 +2470,7 @@
       "Forms.Controls.FlexButton >= 0.11.0",
       "Health >= 1.0.0",
       "Microcharts.Forms >= 0.6.2",
+      "Xam.Plugins.Forms.ProgressRing >= 0.1.2",
       "Xam.Plugins.XamJam.Screen >= 1.0.7",
       "Xamarin.Essentials >= 1.3.1",
       "Xamarin.Forms >= 4.3.0.908675",
@@ -2491,6 +2523,10 @@
           "Microcharts.Forms": {
             "target": "Package",
             "version": "[0.6.2, )"
+          },
+          "Xam.Plugins.Forms.ProgressRing": {
+            "target": "Package",
+            "version": "[0.1.2, )"
           },
           "Xam.Plugins.XamJam.Screen": {
             "target": "Package",

@@ -173,6 +173,8 @@
 -r=/Users/ahmidimohamed/.nuget/packages/skiasharp/1.59.1/lib/XamariniOS/SkiaSharp.dll
 -r=/Users/ahmidimohamed/.nuget/packages/skiasharp.views/1.59.1/lib/XamariniOS/SkiaSharp.Views.iOS.dll
 -r=/Users/ahmidimohamed/.nuget/packages/skiasharp.views.forms/1.59.1/lib/XamariniOS/SkiaSharp.Views.Forms.dll
+-r=/Users/ahmidimohamed/.nuget/packages/xam.plugins.forms.progressring/0.1.2/lib/Xamarin.iOS10/ProgressRing.Forms.Plugin.dll
+-r=/Users/ahmidimohamed/.nuget/packages/xam.plugins.forms.progressring/0.1.2/lib/Xamarin.iOS10/ProgressRing.Forms.Plugin.iOS.dll
 -r=/Users/ahmidimohamed/.nuget/packages/xam.plugins.xamjam.screen/1.0.7/lib/Xamarin.iOS10/Plugin.XamJam.Screen.Abstractions.dll
 -r=/Users/ahmidimohamed/.nuget/packages/xam.plugins.xamjam.screen/1.0.7/lib/Xamarin.iOS10/Plugin.XamJam.Screen.dll
 -r=/Users/ahmidimohamed/.nuget/packages/xamarin.essentials/1.3.1/lib/xamarinios10/Xamarin.Essentials.dll

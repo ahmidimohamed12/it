@@ -4,9 +4,9 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-
              xmlns:btn="clr-namespace:Flex.Controls;assembly=Flex"
              xmlns:ch="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
+             xmlns:pro="clr-namespace:ProgressRingControl.Forms.Plugin;assembly=ProgressRing.Forms.Plugin"
              BackgroundColor="#F3F3F3"
              x:Class="Health.MainPage">
     <ScrollView>
@@ -27,14 +27,12 @@
                 />
                 </StackLayout>
                 <StackLayout>
-                
                     <Picker
                         Title="Fin"
                 x:Name="anmax"
                 WidthRequest="100"
                 />
                 </StackLayout>
-             
                 <Button
                 WidthRequest="100"
                 BackgroundColor="Black"
@@ -55,27 +53,31 @@
                     </Grid.RowDefinitions>
                     <StackLayout  Grid.Column="0" Grid.Row="0" Orientation="Vertical">
                      <Label
-                              HorizontalOptions="StartAndExpand"
+                              HorizontalOptions="CenterAndExpand"
+                            VerticalOptions="CenterAndExpand"
                               Text="INBODY"
                               FontAttributes="Bold"
                               TextColor="White"
                               FontSize="20"
                                         />
                     </StackLayout>
-                   <StackLayout Grid.Column="1"  Grid.Row="0" Orientation="Vertical">
+                   <StackLayout BackgroundColor="#BA433F" Grid.Column="3"  Grid.Row="0" Orientation="Vertical">
                        <Label
-                        HorizontalOptions="EndAndExpand"
+                           Text=""
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           FontSize="18"
+                           />
+                       <Label
+                           VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="CenterAndExpand"
                         x:Name="txtcnt"
                         TextColor="White"
                         FontAttributes="Bold"
-                        FontSize="30"
+                        FontSize="20"
                         />
                    </StackLayout>
-                    
                 </Grid>
-                <StackLayout Orientation="Horizontal">
-                
-                </StackLayout>
             <StackLayout>
                 <ListView x:Name="ls" BackgroundColor="White"  ItemsSource="{Binding code}" HasUnevenRows="True">
                     <ListView.ItemTemplate>
@@ -91,9 +93,10 @@
                                         <Grid.RowDefinitions>
                                             <RowDefinition Height="*" />
                                         </Grid.RowDefinitions>
-                                        <ch:ChartView
-                                            WidthRequest="80"
-                                            HeightRequest="60"
+                                        <pro:ProgressRing 
+                                            ProgressColor="Black"
+                                            Progress="30"
+                                            RingBaseColor="Orange"
                                             x:Name="ch"
                                             Grid.Column="0"
                                             Grid.Row="0"
@@ -124,12 +127,14 @@
                     TextColor="Black"
                     FontAttributes="Bold"
                     Text="DISTRIBUTION DU POIDS"
+                    
                     FontSize="25"
                     />
             <ch:ChartView
                 WidthRequest="200"
                 HeightRequest="200"
                 x:Name="chrt"
+                BackgroundColor="#F3F3F3"
                 />
             <StackLayout>
                 <Label
@@ -144,25 +149,29 @@
                     Text="Masse grase"
                     BackgroundColor="#F3F3F3"
                     HighlightBackgroundColor="Black"
+                    BorderColor="Black"
                     ForegroundColor="Black"
+                    BorderThickness="1"
                     CornerRadius="10" />
                 <btn:FlexButton
                     x:Name="btn22"
+                    BorderThickness="1"
                     WidthRequest="150"
                     HeightRequest="70"
                     Text="Masse maigre"
                     ForegroundColor="Black"
+                    BorderColor="Black"
                     BackgroundColor="#F3F3F3"
                     HighlightBackgroundColor="Black"
                     CornerRadius="10" />
             </StackLayout>
             <Grid BackgroundColor="White" x:Name="gg">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="10"/>
-                    <ColumnDefinition Width="90"/>
-                    <ColumnDefinition Width="180"/>
-                    <ColumnDefinition Width="90" />
-                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="5"/>
+                    <ColumnDefinition Width="{Binding gridman}"/>
+                    <ColumnDefinition Width="{Binding gridman}"/>
+                    <ColumnDefinition Width="{Binding gridman}" />
+                    <ColumnDefinition Width="5"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="50"/>
@@ -171,7 +180,7 @@
                     <RowDefinition Height="50"/>
                     <RowDefinition Height="50"/>
                 </Grid.RowDefinitions>
-                <StackLayout  BackgroundColor="Black" HeightRequest="50" HorizontalOptions="Start" Grid.Column="1" Grid.Row="0">
+                <StackLayout WidthRequest="{Binding gridman}"  BackgroundColor="Black" HeightRequest="50" HorizontalOptions="Start" Grid.Column="1" Grid.Row="0">
                     <Label
                         Text="BRASE GAUCHE"
                         TextColor="White"
@@ -179,7 +188,7 @@
                         FontAttributes="Bold"
                         />
                 </StackLayout>
-                <StackLayout BackgroundColor="Black" HeightRequest="50" HorizontalOptions="Start" Grid.Column="3" Grid.Row="0">
+                <StackLayout WidthRequest="{Binding gridman}" BackgroundColor="Black" HeightRequest="50" HorizontalOptions="Start" Grid.Column="3" Grid.Row="0">
                     <Label
                         FontSize="13"
                         Text="BRAS DROIT"
@@ -187,7 +196,7 @@
                         FontAttributes="Bold"
                         />
                 </StackLayout>
-                <StackLayout BackgroundColor="Black" HeightRequest="50" HorizontalOptions="End" Grid.Column="1" Grid.Row="3">
+                <StackLayout WidthRequest="{Binding gridman}" BackgroundColor="Black" HeightRequest="50" HorizontalOptions="End" Grid.Column="1" Grid.Row="3">
                     <Label
                         FontSize="13"
                         Text="JAMBE DROIT"
@@ -195,7 +204,7 @@
                         FontAttributes="Bold"
                         />
                 </StackLayout>
-                <StackLayout BackgroundColor="Black" HeightRequest="50" HorizontalOptions="End" Grid.Column="3" Grid.Row="3">
+                <StackLayout WidthRequest="{Binding gridman}" BackgroundColor="Black" HeightRequest="50" HorizontalOptions="End" Grid.Column="3" Grid.Row="3">
                     <Label
                         Text="JAMBE GAUCHE"
                         TextColor="White"
@@ -208,6 +217,7 @@
                     HorizontalOptions="CenterAndExpand"
                     Grid.Column="2"
                     Grid.Row="0"
+                    WidthRequest="{Binding gridman}"
                     />
             </Grid>
             <Label

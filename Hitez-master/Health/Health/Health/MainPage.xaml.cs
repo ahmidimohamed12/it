@@ -86,6 +86,8 @@ namespace Health
 
             var ty = Plugin.XamJam.Screen.CrossScreen.Current.Size.Width;
 
+            var gridman = (ty - 10) / 3; 
+
             var cl1 = ty / 3;
             
             chrt.Chart = new Microcharts.DonutChart { Entries = en };
@@ -97,7 +99,6 @@ namespace Health
                 t.code = v[i];
                 mas.Add(t);
             }
-
 
             var list = (from a in mas
                     select a.code).ToList();
@@ -140,6 +141,7 @@ namespace Health
                 Uri u = new Uri("https://cloud.heitzsystem.com/heitzfit/1000/app//images/man-posing-back.png");
                 im.Source = ImageSource.FromUri(u);
             };
+            ls.ItemSelected += list_item_click;
         }
         private void desca()
         {
@@ -163,6 +165,13 @@ namespace Health
             bu.IsVisible = true;
             gg.IsVisible = true;
             effi.IsVisible = false;
+        }
+
+        private void list_item_click(object sender,EventArgs e)
+        {
+            ListView vl = (ListView)sender;
+            string k =(string) vl.SelectedItem;
+            DisplayAlert("hy",k.ToString(),"ok");
         }
     }
 }

@@ -13,6 +13,8 @@ public class MonoPackageManager_Resources {
 		"Microcharts.Forms.dll",
 		"Plugin.XamJam.Screen.Abstractions.dll",
 		"Plugin.XamJam.Screen.dll",
+		"ProgressRing.Forms.Plugin.Android.dll",
+		"ProgressRing.Forms.Plugin.dll",
 		"SkiaSharp.dll",
 		"SkiaSharp.Views.Android.dll",
 		"SkiaSharp.Views.Forms.dll",

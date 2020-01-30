@@ -354,3 +354,5 @@ C:/Users/pc/source/repos/Hitez/Health/Health/Health.iOS/obj/iPhoneSimulator/Debu
 /Users/ahmidimohamed/Desktop/it/Hitez-master/Health/Health/Health.iOS/obj/iPhoneSimulator/Debug/Health.iOS.csproj.CopyComplete
 /Users/ahmidimohamed/Desktop/it/Hitez-master/Health/Health/Health.iOS/obj/iPhoneSimulator/Debug/Health.iOS.exe
 /Users/ahmidimohamed/Desktop/it/Hitez-master/Health/Health/Health.iOS/obj/iPhoneSimulator/Debug/Health.iOS.pdb
+/Users/ahmidimohamed/Desktop/it/Hitez-master/Health/Health/Health.iOS/bin/iPhoneSimulator/Debug/ProgressRing.Forms.Plugin.dll
+/Users/ahmidimohamed/Desktop/it/Hitez-master/Health/Health/Health.iOS/bin/iPhoneSimulator/Debug/ProgressRing.Forms.Plugin.iOS.dll
