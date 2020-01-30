@@ -1,8 +1,8 @@
-﻿<Properties StartupConfiguration="{DD65A43F-227A-46E8-851F-228C5B4CC59B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Health/Health/MainPage.xaml.cs">
+﻿<Properties StartupConfiguration="{7C206885-B1D3-4317-B0AA-10D7EC597F78}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../.nuget/packages/xamarin.forms.inputkit/3.1.1/readme.txt">
     <Files>
-      <File FileName="Health/Health/MainPage.xaml.cs" Line="4" Column="19" IsPinned="True" />
-      <File FileName="Health/Health/MainPage.xaml" />
+      <File FileName="Health/Health/MainPage.xaml.cs" Line="105" Column="26" IsPinned="True" />
+      <File FileName="Health/Health/MainPage.xaml" Line="27" Column="19" />
       <File FileName="Health/Health/debute.xaml" />
       <File FileName="Health/Health/debute.xaml.cs" />
       <File FileName="Health/Health/App.xaml.cs" />
@@ -12,17 +12,16 @@
       <File FileName="Health/Health.iOS/Entitlements.plist" />
       <File FileName="Health/Health.iOS/Info.plist" />
       <File FileName="Health/Health.iOS/AppDelegate.cs" />
+      <File FileName="../../../../.nuget/packages/xamarin.forms.inputkit/3.1.1/readme.txt" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Health" expanded="True">
+          <Node name="Health" expanded="True" selected="True">
             <Node name="Health" expanded="True">
               <Node name="App.xaml" expanded="True" />
               <Node name="debute.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True">
-                <Node name="MainPage.xaml.cs" selected="True" />
-              </Node>
+              <Node name="MainPage.xaml" expanded="True" />
             </Node>
             <Node name="Health.Android" expanded="True">
               <Node name="Assets" expanded="True" />
