@@ -1,0 +1,51 @@
+﻿<Properties StartupConfiguration="{DD65A43F-227A-46E8-851F-228C5B4CC59B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Health/Health/MainPage.xaml.cs">
+    <Files>
+      <File FileName="Health/Health/MainPage.xaml.cs" Line="4" Column="19" IsPinned="True" />
+      <File FileName="Health/Health/MainPage.xaml" />
+      <File FileName="Health/Health/debute.xaml" />
+      <File FileName="Health/Health/debute.xaml.cs" />
+      <File FileName="Health/Health/App.xaml.cs" />
+      <File FileName="Health/Health.iOS/Main.cs" />
+      <File FileName="Health/Health/chart.xaml" />
+      <File FileName="Health/Health.Android/Properties/AssemblyInfo.cs" />
+      <File FileName="Health/Health.iOS/Entitlements.plist" />
+      <File FileName="Health/Health.iOS/Info.plist" />
+      <File FileName="Health/Health.iOS/AppDelegate.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Health" expanded="True">
+            <Node name="Health" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="debute.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="Health.Android" expanded="True">
+              <Node name="Assets" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Health.iOS" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Health.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9BD459DC-3CD7-4785-B68B-2176DC4A96B5" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Health.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

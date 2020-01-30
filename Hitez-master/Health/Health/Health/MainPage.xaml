@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:btn="clr-namespace:Flex.Controls;assembly=Flex"
+             xmlns:ch="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
+             BackgroundColor="White"
+             x:Class="Health.MainPage">
+    <ScrollView>
+        <StackLayout Orientation="Vertical">
+            <Image
+                x:Name="li"
+                VerticalOptions="Start"
+                WidthRequest="500"
+                HeightRequest="300"
+                
+                />
+            <StackLayout Margin="0,-30,0,0" HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                <StackLayout>
+                    <Picker
+                        Title="Debut"
+                x:Name="annmin"
+                WidthRequest="100"
+                />
+                </StackLayout>
+                <StackLayout>
+                
+                    <Picker
+                        Title="Fin"
+                x:Name="anmax"
+                WidthRequest="100"
+                />
+                </StackLayout>
+             
+                <Button
+                WidthRequest="100"
+                BackgroundColor="Black"
+                CornerRadius="20"
+                x:Name="btnsearch"
+                ImageSource="and.png"
+              />
+            </StackLayout>
+            <StackLayout x:Name="st1" BackgroundColor="#91261f" HeightRequest="50" Orientation="Vertical" >
+                <StackLayout Orientation="Horizontal">
+                <Label
+                    HorizontalOptions="StartAndExpand"
+                    Text="INBODY"
+                    FontAttributes="Bold"
+                    TextColor="White"
+                    FontSize="35"
+                    />
+                    <Label
+                        HorizontalOptions="EndAndExpand"
+                        x:Name="txtcnt"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        FontSize="30"
+                        />
+                </StackLayout>
+            </StackLayout>
+            <StackLayout>
+                <ListView x:Name="ls" BackgroundColor="White"  ItemsSource="{Binding code}" HasUnevenRows="True">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell Height="80">
+                                <StackLayout >
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="{Binding cl1}"/>
+                                            <ColumnDefinition Width="{Binding cl1}"/>
+                                            <ColumnDefinition Width="{Binding cl1}"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="*" />
+                                        </Grid.RowDefinitions>
+                                        <ch:ChartView
+                                            WidthRequest="80"
+                                            HeightRequest="60"
+                                            x:Name="ch"
+                                            Grid.Column="0"
+                                            Grid.Row="0"
+                                            />
+                                        <Label
+                                            Text="hy"
+                                            Grid.Column="1"
+                                            Grid.Row="0"
+                                            />
+                                        <Label
+                                            Text="{Binding}"
+                                            Grid.Column="2"
+                                            Grid.Row="0"
+                                            FontAttributes="Bold"
+                                            FontSize="28"
+                                            TextColor="Black"
+                                            />
+                                    </Grid>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+            <Label
+                    x:Name="lbldes"
+                    HorizontalOptions="CenterAndExpand"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    Text="DISTRIBUTION DU POIDS"
+                    FontSize="25"
+                    />
+            <ch:ChartView
+                WidthRequest="200"
+                HeightRequest="200"
+                x:Name="chrt"
+                />
+            <StackLayout>
+                <Label
+                Text=""
+                />
+            </StackLayout>
+            <StackLayout x:Name="bu" HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                <btn:FlexButton
+                    x:Name="btn11"
+                    WidthRequest="150"
+                    HeightRequest="70"
+                    Text="Masse grase"
+                    BackgroundColor="#F3F3F3"
+                    HighlightBackgroundColor="Black"
+                    ForegroundColor="Black"
+                    CornerRadius="10" />
+                <btn:FlexButton
+                    x:Name="btn22"
+                    WidthRequest="150"
+                    HeightRequest="70"
+                    Text="Masse maigre"
+                    ForegroundColor="Black"
+                    BackgroundColor="#F3F3F3"
+                    HighlightBackgroundColor="Black"
+                    CornerRadius="10" />
+            </StackLayout>
+            <Grid x:Name="gg">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="90"/>
+                    <ColumnDefinition Width="180"/>
+                    <ColumnDefinition Width="90" />
+                    <ColumnDefinition Width="10"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+                <StackLayout  BackgroundColor="Black" HeightRequest="50" HorizontalOptions="Start" Grid.Column="1" Grid.Row="0">
+                    <Label
+                        Text="BRASE GAUCHE"
+                        TextColor="White"
+                        FontSize="13"
+                        FontAttributes="Bold"
+                        />
+                </StackLayout>
+                <StackLayout BackgroundColor="Black" HeightRequest="50" HorizontalOptions="Start" Grid.Column="3" Grid.Row="0">
+                    <Label
+                        FontSize="13"
+                        Text="BRAS DROIT"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        />
+                </StackLayout>
+                <StackLayout BackgroundColor="Black" HeightRequest="50" HorizontalOptions="End" Grid.Column="1" Grid.Row="3">
+                    <Label
+                        FontSize="13"
+                        Text="JAMBE DROIT"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        />
+                </StackLayout>
+                <StackLayout BackgroundColor="Black" HeightRequest="50" HorizontalOptions="End" Grid.Column="3" Grid.Row="3">
+                    <Label
+                        Text="JAMBE GAUCHE"
+                        TextColor="White"
+                        FontSize="13"
+                        FontAttributes="Bold"
+                        />
+                </StackLayout>
+                   <Image                    x:Name="im"
+                       Grid.RowSpan="4"
+                    HorizontalOptions="CenterAndExpand"
+                    Grid.Column="2"
+                    Grid.Row="0"
+                    />
+            </Grid>
+            <Label
+                HorizontalOptions="Start"
+                TextColor="Black"
+                BackgroundColor="#F3F3F3"
+                x:Name="effi"
+                Text="Vous avez 0 test(s) entre la period choisissez"
+                FontAttributes="Bold"
+                />
+            <ActivityIndicator
+                Color="Black"
+                HorizontalOptions="CenterAndExpand"
+                x:Name="srch"
+                IsRunning="True"
+                BackgroundColor="White"
+                />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

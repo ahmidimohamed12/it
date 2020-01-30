@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:ch="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
+            BackgroundColor="White"
+            xmlns:btn="clr-namespace:Flex.Controls;assembly=Flex"
+             x:Class="Health.TabbedPage1">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="IMPEDANCEMETRIE" >
+        <ScrollView>
+                <StackLayout Orientation="Vertical">
+
+                    <StackLayout Orientation="Horizontal">
+                        <Image
+                HorizontalOptions="StartAndExpand"
+                WidthRequest="80"
+                x:Name="imlgo"
+                />
+                    </StackLayout>
+
+                    <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                        <StackLayout>
+                            <Label HorizontalOptions="CenterAndExpand"
+                       Text="Debut"
+                       FontAttributes="Bold"
+                       TextColor="Black"
+                       />
+                            <Picker
+                x:Name="annmin"
+                WidthRequest="100"
+                HeightRequest="30"
+                />
+                        </StackLayout>
+                        <StackLayout>
+                            <Label HorizontalOptions="CenterAndExpand"
+                       Text="Fin"
+                       TextColor="Black"
+                       FontAttributes="Bold"
+                    />
+                            <Picker
+                                HeightRequest="30"
+                x:Name="anmax"
+                WidthRequest="100"
+                />
+                        </StackLayout>
+
+                        <btn:FlexButton
+                    WidthRequest="100"
+                    Icon="and.png"
+                    BackgroundColor="Black"
+                           ForegroundColor="White"
+                            HighlightBackgroundColor="White"
+                            HighlightForegroundColor="Black"
+                            CornerRadius="20"
+              />
+                    </StackLayout>
+                    <StackLayout BackgroundColor="#91261f" HeightRequest="50" Orientation="Vertical" >
+                        <StackLayout Orientation="Horizontal">
+                            <Label
+                    HorizontalOptions="StartAndExpand"
+                    Text="INBODY"
+                    FontAttributes="Bold"
+                    TextColor="White"
+                    FontSize="35"
+                    />
+                            <Label
+                        HorizontalOptions="EndAndExpand"
+                        x:Name="txtcnt"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        FontSize="30"
+                        />
+
+                        </StackLayout>
+                        <Label
+                    x:Name="x"
+                    />
+
+                    </StackLayout>
+                    <ListView x:Name="ls" BackgroundColor="White"  ItemsSource="{Binding v}" HasUnevenRows="True">
+                        <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell
+                                TextColor="Black"
+                                Text="{Binding}"
+                                />
+                        </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </ScrollView>
+        </ContentPage>
+    <ContentPage Title="Tab 2" >
+        <ScrollView>
+            <StackLayout Orientation="Vertical">
+                <Label
+                    HorizontalOptions="CenterAndExpand"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    Text="DISTRIBUTION DU POIDS"
+                    FontSize="25"
+                    />
+                <ch:ChartView
+                WidthRequest="200"
+                HeightRequest="400"
+                x:Name="chrt"
+                />
+                <StackLayout Orientation="Horizontal">
+                    <Image
+                        StyleClass="bone-icon md-default-theme"
+                        />
+                    <Label
+                    HorizontalOptions="Center"
+                    Text="Vous avez 5 kilos de minéraux où 3 kilos font partie de votre structure osseuse "
+                    TextColor="Black"
+                    FontSize="14"
+                    />
+                </StackLayout>
+               
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+</TabbedPage>
