@@ -89,7 +89,6 @@ namespace Health
             var gridman = (ty - 10) / 3; 
 
             var cl1 = ty / 3;
-            
             chrt.Chart = new Microcharts.DonutChart { Entries = en };
             string[] v = m.Split(',');
             mas = new List<mesure>();

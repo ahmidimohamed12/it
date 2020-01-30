@@ -40,6 +40,25 @@
                 x:Name="btnsearch"
                 ImageSource="and.png"
               />
+                <StackLayout Orientation="Horizontal">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="5"/>
+                            <ColumnDefinition Width="{}" />
+                            <ColumnDefinition Width="{}" />
+                            <ColumnDefinition Width="{}" />
+                            <ColumnDefinition Width="5"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="40"/>
+                        </Grid.RowDefinitions>
+                        <StackLayout>
+                        <Switch Grid.Column="1"  Grid.Row="0" />
+                        </StackLayout>
+                        <Switch Grid.Column="2" Grid.Row="0" />
+                        <Switch Grid.Column="3" Grid.Row="0" />
+                    </Grid>
+                </StackLayout>
             </StackLayout>
                 <Grid x:Name="st1" BackgroundColor="#91261f"  >
                     <Grid.ColumnDefinitions>
@@ -61,13 +80,8 @@
                               FontSize="20"
                                         />
                     </StackLayout>
-                   <StackLayout BackgroundColor="#BA433F" Grid.Column="3"  Grid.Row="0" Orientation="Vertical">
-                       <Label
-                           Text=""
-                           TextColor="White"
-                           FontAttributes="Bold"
-                           FontSize="18"
-                           />
+                   <StackLayout BackgroundColor="#BA433F" Grid.Column="3"  Grid.Row="0" Orientation="Horizontal">
+                      
                        <Label
                            VerticalOptions="CenterAndExpand"
                         HorizontalOptions="CenterAndExpand"
