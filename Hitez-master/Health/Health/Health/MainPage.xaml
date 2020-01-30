@@ -43,16 +43,15 @@
                 ImageSource="and.png"
               />
             </StackLayout>
-            <StackLayout BackgroundColor="#91261f" HeightRequest="50" Orientation="Vertical" >
-                <Grid x:Name="st1" >
+                <Grid x:Name="st1" BackgroundColor="#91261f"  >
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="{Binding}"/>
-                        <ColumnDefinition Width="{Binding}"/>
-                        <ColumnDefinition Width="{Binding}"/>
-                        <ColumnDefinition Width="{Binding}"/>
+                        <ColumnDefinition Width="{Binding twid}"/>
+                        <ColumnDefinition Width="{Binding twid}"/>
+                        <ColumnDefinition Width="{Binding twid}"/>
+                        <ColumnDefinition Width="{Binding twid}"/>
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="30"/>
                     </Grid.RowDefinitions>
                     <StackLayout  Grid.Column="0" Grid.Row="0" Orientation="Vertical">
                      <Label
@@ -60,10 +59,10 @@
                               Text="INBODY"
                               FontAttributes="Bold"
                               TextColor="White"
-                              FontSize="30"
+                              FontSize="20"
                                         />
                     </StackLayout>
-                   <StackLayout Grid.Column="0"  Grid.Row="0" Orientation="Vertical">
+                   <StackLayout Grid.Column="1"  Grid.Row="0" Orientation="Vertical">
                        <Label
                         HorizontalOptions="EndAndExpand"
                         x:Name="txtcnt"
@@ -77,7 +76,6 @@
                 <StackLayout Orientation="Horizontal">
                 
                 </StackLayout>
-            </StackLayout>
             <StackLayout>
                 <ListView x:Name="ls" BackgroundColor="White"  ItemsSource="{Binding code}" HasUnevenRows="True">
                     <ListView.ItemTemplate>
@@ -139,26 +137,24 @@
                 />
             </StackLayout>
             <StackLayout x:Name="bu" HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
-                <btn:FlexButton
+                <Button
                     x:Name="btn11"
                     WidthRequest="150"
                     HeightRequest="70"
                     Text="Masse grase"
                     BackgroundColor="#F3F3F3"
-                    HighlightBackgroundColor="Black"
-                    ForegroundColor="Black"
+                    TextColor="Black"
                     CornerRadius="10" />
-                <btn:FlexButton
+                <Button
                     x:Name="btn22"
                     WidthRequest="150"
                     HeightRequest="70"
                     Text="Masse maigre"
-                    ForegroundColor="Black"
+                    TextColor="Black"
                     BackgroundColor="#F3F3F3"
-                    HighlightBackgroundColor="Black"
                     CornerRadius="10" />
             </StackLayout>
-            <Grid x:Name="gg">
+            <Grid BackgroundColor="White" x:Name="gg">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="10"/>
                     <ColumnDefinition Width="90"/>

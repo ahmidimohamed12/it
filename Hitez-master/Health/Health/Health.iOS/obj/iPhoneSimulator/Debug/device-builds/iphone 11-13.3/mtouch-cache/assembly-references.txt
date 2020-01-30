@@ -1,4 +1,4 @@
-/Users/ahmidimohamed/Desktop/Hietz/Hitez-master/Health/Health/Health.iOS/bin/iPhoneSimulator/Debug/Health.iOS.exe
+/Users/ahmidimohamed/Desktop/it/Hitez-master/Health/Health/Health.iOS/bin/iPhoneSimulator/Debug/Health.iOS.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.10.0.17/lib/mono/Xamarin.iOS/mscorlib.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.10.0.17/lib/mono/Xamarin.iOS/../../64bits/Xamarin.iOS.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.10.0.17/lib/mono/Xamarin.iOS/System.dll
@@ -22,7 +22,7 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.10.0.17/lib/mono/Xamarin.iOS/System.Web.Services.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.10.0.17/lib/mono/Xamarin.iOS/System.Xml.Linq.dll
 /Users/ahmidimohamed/.nuget/packages/xamarin.forms/4.3.0.908675/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll
-/Users/ahmidimohamed/Desktop/Hietz/Hitez-master/Health/Health/Health/bin/Debug/netstandard2.0/Health.dll
+/Users/ahmidimohamed/Desktop/it/Hitez-master/Health/Health/Health/bin/Debug/netstandard2.0/Health.dll
 /Users/ahmidimohamed/.nuget/packages/xamarin.forms/4.3.0.908675/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
 /Users/ahmidimohamed/.nuget/packages/microcharts.forms/0.6.2/lib/portable-net45+win8+wpa81+wp8/Microcharts.Forms.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.10.0.17/lib/mono/Xamarin.iOS/Facades/System.Runtime.dll
@@ -33,9 +33,9 @@
 /Users/ahmidimohamed/.nuget/packages/skiasharp.views/1.59.1/lib/XamariniOS/SkiaSharp.Views.iOS.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.10.0.17/lib/mono/Xamarin.iOS/Facades/System.Runtime.Extensions.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.10.0.17/lib/mono/Xamarin.iOS/Facades/System.Linq.dll
-/Users/ahmidimohamed/.nuget/packages/forms.controls.flexbutton/0.11.0/lib/xamarinios10/Flex.dll
 /Users/ahmidimohamed/.nuget/packages/xam.plugins.xamjam.screen/1.0.7/lib/Xamarin.iOS10/Plugin.XamJam.Screen.Abstractions.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.10.0.17/lib/mono/Xamarin.iOS/Facades/System.Resources.ResourceManager.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.10.0.17/lib/mono/Xamarin.iOS/Facades/System.ObjectModel.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.10.0.17/lib/mono/Xamarin.iOS/Facades/System.Threading.dll
 /Users/ahmidimohamed/.nuget/packages/xam.plugins.xamjam.screen/1.0.7/lib/Xamarin.iOS10/Plugin.XamJam.Screen.dll
+/Users/ahmidimohamed/.nuget/packages/forms.controls.flexbutton/0.11.0/lib/xamarinios10/Flex.dll

@@ -1,5 +1,5 @@
-"--cache=/Users/ahmidimohamed/Desktop/Hietz/Hitez-master/Health/Health/Health.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/mtouch-cache"
-"--sim=/Users/ahmidimohamed/Desktop/Hietz/Hitez-master/Health/Health/Health.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/Health.iOS.app"
+"--cache=/Users/ahmidimohamed/Desktop/it/Hitez-master/Health/Health/Health.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/mtouch-cache"
+"--sim=/Users/ahmidimohamed/Desktop/it/Hitez-master/Health/Health/Health.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/Health.iOS.app"
 --executable=Health.iOS
  --debug
  --sgen-conc
@@ -10,9 +10,9 @@
  --aot-options=-O=-float32
  --http-message-handler=NSUrlSessionHandler
  --abi=x86_64
-"--symbollist=/Users/ahmidimohamed/Desktop/Hietz/Hitez-master/Health/Health/Health.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/mtouch-symbols.list"
+"--symbollist=/Users/ahmidimohamed/Desktop/it/Hitez-master/Health/Health/Health.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/mtouch-symbols.list"
  --dsym=no
--r=/Users/ahmidimohamed/Desktop/Hietz/Hitez-master/Health/Health/Health/bin/Debug/netstandard2.0/Health.dll
+-r=/Users/ahmidimohamed/Desktop/it/Hitez-master/Health/Health/Health/bin/Debug/netstandard2.0/Health.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/OpenTK-1.0.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
@@ -214,7 +214,7 @@
 -r=/Users/ahmidimohamed/.nuget/packages/xamarin.forms/4.3.0.908675/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/ahmidimohamed/.nuget/packages/xamarin.forms/4.3.0.908675/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/ahmidimohamed/.nuget/packages/xamarin.forms/4.3.0.908675/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
--r=/Users/ahmidimohamed/Desktop/Hietz/Hitez-master/Health/Health/Health/bin/Debug/netstandard2.0/Health.dll
+-r=/Users/ahmidimohamed/Desktop/it/Hitez-master/Health/Health/Health/bin/Debug/netstandard2.0/Health.dll
  --target-framework=Xamarin.iOS,v1.0
---root-assembly=/Users/ahmidimohamed/Desktop/Hietz/Hitez-master/Health/Health/Health.iOS/bin/iPhoneSimulator/Debug/Health.iOS.exe
+--root-assembly=/Users/ahmidimohamed/Desktop/it/Hitez-master/Health/Health/Health.iOS/bin/iPhoneSimulator/Debug/Health.iOS.exe
  
