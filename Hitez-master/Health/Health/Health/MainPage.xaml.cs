@@ -55,7 +55,7 @@ namespace Health
             btnsearch.Clicked += (sender, e) =>
             {
 
-                if (annmin.Items.Count > 4 && anmax.Items.Count > 4)
+                if (annmin.SelectedIndex > 0)
                 {
                     srch.IsVisible = true;
                     effi.IsEnabled = false;
@@ -96,10 +96,11 @@ namespace Health
                 t.code = v[i];
                 mas.Add(t);
             }
-           // btnsearch.Icon = ImageSource.FromUri(l);
-            
+
+
             var list = (from a in mas
                     select a.code).ToList();
+
             txtcnt.Text = list.Count.ToString();
             ls.ItemsSource = list;
             BindingContext = this;
@@ -123,8 +124,8 @@ namespace Health
 
             anmax.SelectedIndexChanged += (sender, e) =>
             {
-                Picker p = (Picker)sender;
-                int a = (int)p.SelectedItem;
+                Picker po = (Picker)sender;
+                int a = (int)po.SelectedItem;
                 List<int> vl = new List<int>();
 
             };
@@ -160,7 +161,6 @@ namespace Health
             lbldes.IsVisible = true;
             bu.IsVisible = true;
             gg.IsVisible = true;
-            
             effi.IsVisible = false;
         }
     }

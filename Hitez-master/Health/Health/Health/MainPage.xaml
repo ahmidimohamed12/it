@@ -4,9 +4,10 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+
              xmlns:btn="clr-namespace:Flex.Controls;assembly=Flex"
              xmlns:ch="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
-             BackgroundColor="White"
+             BackgroundColor="#F3F3F3"
              x:Class="Health.MainPage">
     <ScrollView>
         <StackLayout Orientation="Vertical">
@@ -42,22 +43,39 @@
                 ImageSource="and.png"
               />
             </StackLayout>
-            <StackLayout x:Name="st1" BackgroundColor="#91261f" HeightRequest="50" Orientation="Vertical" >
-                <StackLayout Orientation="Horizontal">
-                <Label
-                    HorizontalOptions="StartAndExpand"
-                    Text="INBODY"
-                    FontAttributes="Bold"
-                    TextColor="White"
-                    FontSize="35"
-                    />
-                    <Label
+            <StackLayout BackgroundColor="#91261f" HeightRequest="50" Orientation="Vertical" >
+                <Grid x:Name="st1" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="{Binding}"/>
+                        <ColumnDefinition Width="{Binding}"/>
+                        <ColumnDefinition Width="{Binding}"/>
+                        <ColumnDefinition Width="{Binding}"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"/>
+                    </Grid.RowDefinitions>
+                    <StackLayout  Grid.Column="0" Grid.Row="0" Orientation="Vertical">
+                     <Label
+                              HorizontalOptions="StartAndExpand"
+                              Text="INBODY"
+                              FontAttributes="Bold"
+                              TextColor="White"
+                              FontSize="30"
+                                        />
+                    </StackLayout>
+                   <StackLayout Grid.Column="0"  Grid.Row="0" Orientation="Vertical">
+                       <Label
                         HorizontalOptions="EndAndExpand"
                         x:Name="txtcnt"
                         TextColor="White"
                         FontAttributes="Bold"
                         FontSize="30"
                         />
+                   </StackLayout>
+                    
+                </Grid>
+                <StackLayout Orientation="Horizontal">
+                
                 </StackLayout>
             </StackLayout>
             <StackLayout>
