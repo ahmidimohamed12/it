@@ -47,10 +47,10 @@ namespace Health {
         private global::Xamarin.Forms.StackLayout bu;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Button btn11;
+        private global::Flex.Controls.FlexButton btn11;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Button btn22;
+        private global::Flex.Controls.FlexButton btn22;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Grid gg;
@@ -77,8 +77,8 @@ namespace Health {
             lbldes = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "lbldes");
             chrt = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Microcharts.Forms.ChartView>(this, "chrt");
             bu = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "bu");
-            btn11 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "btn11");
-            btn22 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "btn22");
+            btn11 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Flex.Controls.FlexButton>(this, "btn11");
+            btn22 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Flex.Controls.FlexButton>(this, "btn22");
             gg = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Grid>(this, "gg");
             im = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Image>(this, "im");
             effi = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "effi");

@@ -137,21 +137,23 @@
                 />
             </StackLayout>
             <StackLayout x:Name="bu" HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
-                <Button
+                <btn:FlexButton
                     x:Name="btn11"
                     WidthRequest="150"
                     HeightRequest="70"
                     Text="Masse grase"
                     BackgroundColor="#F3F3F3"
-                    TextColor="Black"
+                    HighlightBackgroundColor="Black"
+                    ForegroundColor="Black"
                     CornerRadius="10" />
-                <Button
+                <btn:FlexButton
                     x:Name="btn22"
                     WidthRequest="150"
                     HeightRequest="70"
                     Text="Masse maigre"
-                    TextColor="Black"
+                    ForegroundColor="Black"
                     BackgroundColor="#F3F3F3"
+                    HighlightBackgroundColor="Black"
                     CornerRadius="10" />
             </StackLayout>
             <Grid BackgroundColor="White" x:Name="gg">
