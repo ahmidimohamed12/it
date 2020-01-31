@@ -82,6 +82,7 @@ namespace Health
            // li.WidthRequest = Plugin.XamJam.Screen.CrossScreen.Current.Size.Width;
             im.Source = ImageSource.FromUri(o);
             anmax.ItemsSource = anner;
+            
             annmin.ItemsSource = anner;
 
             var ty = Plugin.XamJam.Screen.CrossScreen.Current.Size.Width;
@@ -104,7 +105,6 @@ namespace Health
 
             txtcnt.Text = list.Count.ToString();
             ls.ItemsSource = list;
-            BindingContext = this;
 
             annmin.SelectedIndexChanged += (sender, e) =>
             {
@@ -146,11 +146,13 @@ namespace Health
         {
             ls.IsVisible = false;
             chrt.IsVisible = false;
-          //  st1.IsVisible = false;
+            st1.IsVisible = false;
+            opp.IsVisible = false;
             lbldes.IsVisible = false;
             bu.IsVisible = false;
             gg.IsVisible = false;
             srch.IsVisible = false;
+            chl.IsVisible = false;
         }
 
         private void activer()
@@ -159,10 +161,13 @@ namespace Health
             srch.IsVisible = false;
             ls.IsVisible = true;
             chrt.IsVisible = true;
-           // st1.IsVisible = true;
+            lss.IsVisible = true;
+           st1.IsVisible = true;
+            opp.IsVisible = true;
             lbldes.IsVisible = true;
             bu.IsVisible = true;
             gg.IsVisible = true;
+            chl.IsVisible = true;
             effi.IsVisible = false;
         }
 

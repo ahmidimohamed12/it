@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[0.6.2, )"
             },
+            "Xam.Controls.RadioButton": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "Xam.Plugins.Forms.ProgressRing": {
               "target": "Package",
               "version": "[0.1.2, )"
@@ -136,6 +140,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Xam.Controls.RadioButton": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             },
             "Xam.Plugins.Forms.ProgressRing": {
               "target": "Package",

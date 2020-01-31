@@ -120,6 +120,18 @@
           "lib/netstandard2.0/System.Numerics.Vectors.dll": {}
         }
       },
+      "Xam.Controls.RadioButton/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "compile": {
+          "lib/netstandard2.0/FormsRadioButton.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FormsRadioButton.dll": {}
+        }
+      },
       "Xam.Plugins.Forms.ProgressRing/0.1.2": {
         "type": "package",
         "dependencies": {
@@ -671,6 +683,18 @@
         "version.txt"
       ]
     },
+    "Xam.Controls.RadioButton/1.0.0": {
+      "sha512": "18LJi3T4vqpQcXC0lAoTezVfOuJdnTIBcYPChbCDrTrhbdINYl8QFPC1kv5veA5yZWi1+oMNFqIryZ92ZAMjVQ==",
+      "type": "package",
+      "path": "xam.controls.radiobutton/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/FormsRadioButton.dll",
+        "xam.controls.radiobutton.1.0.0.nupkg.sha512",
+        "xam.controls.radiobutton.nuspec"
+      ]
+    },
     "Xam.Plugins.Forms.ProgressRing/0.1.2": {
       "sha512": "TqxIQo9uiq0EXPSIet8eouoF0Vs1Al30Urd++LXkH2lCQPMJzr5aCrwnCrTi9/4V229njCgUw53+Au6xWbZwHg==",
       "type": "package",
@@ -1069,6 +1093,7 @@
       "Forms.Controls.FlexButton >= 0.11.0",
       "Microcharts.Forms >= 0.6.2",
       "NETStandard.Library >= 2.0.3",
+      "Xam.Controls.RadioButton >= 1.0.0",
       "Xam.Plugins.Forms.ProgressRing >= 0.1.2",
       "Xam.Plugins.XamJam.Screen >= 1.0.7",
       "Xamarin.Essentials >= 1.3.1",
@@ -1129,6 +1154,10 @@
             "target": "Package",
             "version": "[2.0.3, )",
             "autoReferenced": true
+          },
+          "Xam.Controls.RadioButton": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           },
           "Xam.Plugins.Forms.ProgressRing": {
             "target": "Package",

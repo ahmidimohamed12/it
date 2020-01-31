@@ -9,6 +9,8 @@
              xmlns:pro="clr-namespace:ProgressRingControl.Forms.Plugin;assembly=ProgressRing.Forms.Plugin"
              xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
              BackgroundColor="#F3F3F3"
+             xmlns:pi="clr-namespace:Health.controls"
+             xmlns:xm="clr-namespace:FormsRadioButton;assembly=FormsRadioButton"
              x:Class="Health.MainPage">
     <ScrollView>
         <StackLayout Orientation="Vertical">
@@ -19,20 +21,24 @@
                 HeightRequest="300"
                 
                 />
-            <StackLayout Margin="0,-30,0,0" HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+            <StackLayout Margin="0,0,0,0" HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
                 <StackLayout>
-                    <Picker
+                    <pi:Pickericons
                         Title="Debut"
-                x:Name="annmin"
-                WidthRequest="100"
-                />
+                        x:Name="annmin"
+                        HorizontalOptions="Start"
+                        WidthRequest="100"
+                        Image="button.png"
+                    />
+                    
                 </StackLayout>
                 <StackLayout>
-                    <Picker
+                    <pi:Pickericons
                         Title="Fin"
-                x:Name="anmax"
-                WidthRequest="100"
-                />
+                        x:Name="anmax"
+                        WidthRequest="100"
+                        Image="button.png"
+                        />
                 </StackLayout>
                 <Button
                 WidthRequest="100"
@@ -41,26 +47,54 @@
                 x:Name="btnsearch"
                 ImageSource="and.png"
               />
-                <StackLayout Orientation="Horizontal">
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="5"/>
-                            <ColumnDefinition Width="40" />
-                            <ColumnDefinition Width="40" />
-                            <ColumnDefinition Width="40" />
-                            <ColumnDefinition Width="5"/>
-                        </Grid.ColumnDefinitions>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="40"/>
-                        </Grid.RowDefinitions>
-                        <StackLayout>
-                        <input:RadioButton Grid.Column="1"  Grid.Row="0" />
-                        </StackLayout>
-                        <input:RadioButton Grid.Column="2" Grid.Row="0" />
-                        <input:RadioButton Grid.Column="3" Grid.Row="0" />
-                    </Grid>
-                </StackLayout>
+               
             </StackLayout>
+              <StackLayout x:Name="opp" Margin="0,0,0,0" HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                <StackLayout>
+                    <pi:Pickericons
+                        Title="Debut"
+                        HorizontalOptions="Start"
+                WidthRequest="150"
+                        Image="button.png"
+                />
+                    
+                </StackLayout>
+                <StackLayout>
+                    <pi:Pickericons
+                        Title="Fin"
+                WidthRequest="150"
+                        Image="button.png"
+                />
+                </StackLayout>
+              
+            </StackLayout>
+             <StackLayout x:Name="lss" Orientation="Horizontal">
+                 <Grid HorizontalOptions="CenterAndExpand">
+                     <Grid.ColumnDefinitions>
+                         <ColumnDefinition Width="5"/>
+                         <ColumnDefinition Width="100"/>
+                         <ColumnDefinition Width="100"/>
+                         <ColumnDefinition Width="100"/>
+                         <ColumnDefinition Width="5"/>
+                     </Grid.ColumnDefinitions>
+                     <Grid.RowDefinitions>
+                         <RowDefinition Height="60"/>
+                     </Grid.RowDefinitions>
+                     <StackLayout Grid.Column="1" Grid.Row="0" Orientation="Horizontal">
+                 <xm:FormsRadioButton  WidthRequest="70"  HorizontalOptions="Start" />
+                    
+                     </StackLayout>
+                     <StackLayout Orientation="Horizontal" Grid.Column="2" Grid.Row="0">
+                        <Switch WidthRequest="40" />
+                         <Label/>
+                     </StackLayout>
+                     <StackLayout Orientation="Horizontal" Grid.Column="3" Grid.Row="0">
+                         <Switch WidthRequest="40" />
+                         <Label/>
+                     </StackLayout>
+                 </Grid>
+             </StackLayout>
+
                 <Grid x:Name="st1" BackgroundColor="#91261f"  >
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="{Binding twid}"/>
@@ -84,12 +118,12 @@
                    <StackLayout BackgroundColor="#BA433F" Grid.Column="3"  Grid.Row="0" Orientation="Horizontal">
                       
                        <Label
-                           VerticalOptions="CenterAndExpand"
-                        HorizontalOptions="CenterAndExpand"
-                        x:Name="txtcnt"
-                        TextColor="White"
-                        FontAttributes="Bold"
-                        FontSize="20"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="CenterAndExpand"
+                            x:Name="txtcnt"
+                            TextColor="White"
+                            FontAttributes="Bold"
+                            FontSize="20"
                         />
                    </StackLayout>
                 </Grid>
@@ -108,13 +142,13 @@
                                         <Grid.RowDefinitions>
                                             <RowDefinition Height="*" />
                                         </Grid.RowDefinitions>
-                                        <pro:ProgressRing 
-                                            ProgressColor="Black"
+                                        <ProgressBar 
                                             Progress="30"
-                                            RingBaseColor="Orange"
+                                            ProgressColor="Orange"
                                             x:Name="ch"
                                             Grid.Column="0"
                                             Grid.Row="0"
+                                            
                                             />
                                         <Label
                                             Text="hy"
@@ -151,9 +185,11 @@
                 x:Name="chrt"
                 BackgroundColor="#F3F3F3"
                 />
-            <StackLayout>
+            <StackLayout Orientation="Horizontal">
                 <Label
-                Text=""
+                Text="Vous avez 5 kilos de mineraux ou 3 kilos font partie de votre structure  osseuse"
+                 TextColor="Black"
+                    x:Name="chl"
                 />
             </StackLayout>
             <StackLayout x:Name="bu" HorizontalOptions="CenterAndExpand" Orientation="Horizontal">

@@ -20,6 +20,7 @@
     <PackageReference Include="bootstrap" Version="4.4.1" />
     <PackageReference Include="Xam.Plugins.Forms.ProgressRing" Version="0.1.2" />
     <PackageReference Include="Xamarin.Forms.InputKit" Version="3.1.1" />
+    <PackageReference Include="Xam.Controls.RadioButton" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -41,5 +42,8 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateGeneratedFiles</Generator>
     </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="controls\" />
   </ItemGroup>
 </Project>
