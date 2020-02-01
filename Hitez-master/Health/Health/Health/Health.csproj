@@ -21,6 +21,7 @@
     <PackageReference Include="Xam.Plugins.Forms.ProgressRing" Version="0.1.2" />
     <PackageReference Include="Xamarin.Forms.InputKit" Version="3.1.1" />
     <PackageReference Include="Xam.Controls.RadioButton" Version="1.0.0" />
+    <PackageReference Include="XamForms.Controls.Calendar" Version="1.1.1" />
   </ItemGroup>
 
   <ItemGroup>

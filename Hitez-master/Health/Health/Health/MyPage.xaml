@@ -1,17 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:lt="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Health.MyPage">
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Health.MyPage"
+             xmlns:cl = "clr-namespace:XamForms.Controls;assembly=XamForms.Controls.Calendar"
+             >
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" >
-            <lt:AnimationView
-                HorizontalOptions="FillAndExpand"
-                VerticalOptions="FillAndExpand"
-                Animation="jim.json"
-                AutoPlay="True"
-                Loop="True"
-                IsPlaying="True"
-                />
+          <StackLayout Orientation="Horizontal">
+              <Image/>
+              <Label/>
+          </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Label
+                    x:Name="lblres"
+                    FontAttributes="Bold"
+                    TextColor="#C7C7C7"
+                    HorizontalOptions="CenterAndExpand"
+                    FontSize="30"
+                    />
+                <cl:Calendar
+
+                    />
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -218,6 +218,8 @@
 -r=/Users/ahmidimohamed/.nuget/packages/xamarin.forms/4.3.0.908675/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/ahmidimohamed/.nuget/packages/xamarin.forms/4.3.0.908675/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/ahmidimohamed/.nuget/packages/xamarin.forms.inputkit/3.1.1/lib/xamarin.ios10/Plugin.InputKit.dll
+-r=/Users/ahmidimohamed/.nuget/packages/xamforms.controls.calendar/1.1.1/lib/Xamarin.iOS10/XamForms.Controls.Calendar.dll
+-r=/Users/ahmidimohamed/.nuget/packages/xamforms.controls.calendar/1.1.1/lib/Xamarin.iOS10/XamForms.Controls.Calendar.iOS.dll
 -r=/Users/ahmidimohamed/Desktop/it/Hitez-master/Health/Health/Health/bin/Debug/netstandard2.0/Health.dll
  --target-framework=Xamarin.iOS,v1.0
 --root-assembly=/Users/ahmidimohamed/Desktop/it/Hitez-master/Health/Health/Health.iOS/bin/iPhoneSimulator/Debug/Health.iOS.exe

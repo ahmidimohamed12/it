@@ -1,29 +1,30 @@
 ﻿<Properties StartupConfiguration="{DD65A43F-227A-46E8-851F-228C5B4CC59B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Health/Health/MyPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Health/Health/App.xaml.cs">
     <Files>
-      <File FileName="Health/Health/MainPage.xaml.cs" Line="14" Column="2" IsPinned="True" />
-      <File FileName="Health/Health/MainPage.xaml" Line="68" Column="35" />
-      <File FileName="Health/Health/debute.xaml" />
-      <File FileName="Health/Health/debute.xaml.cs" />
-      <File FileName="Health/Health/App.xaml.cs" />
+      <File FileName="Health/Health/MainPage.xaml.cs" Line="161" Column="12" IsPinned="True" />
+      <File FileName="Health/Health/MainPage.xaml" Line="260" Column="31" />
+      <File FileName="Health/Health/debute.xaml" Line="1" Column="1" />
+      <File FileName="Health/Health/debute.xaml.cs" Line="1" Column="1" />
+      <File FileName="Health/Health/App.xaml.cs" Line="13" Column="36" />
       <File FileName="Health/Health.iOS/Main.cs" />
-      <File FileName="Health/Health/chart.xaml" />
+      <File FileName="Health/Health/chart.xaml" Line="1" Column="1" />
       <File FileName="Health/Health/controls/Pickericons.cs" Line="14" Column="10" />
       <File FileName="Health/Health.Android/CustomRenderer/pickercustomrenderer.cs" Line="17" Column="1" />
       <File FileName="Health/Health.iOS/pickerRendcus.cs" Line="17" Column="7" />
-      <File FileName="Health/Health/MyPage.xaml" Line="1" Column="1" />
-      <File FileName="Health/Health/MyPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Health/Health/MyPage.xaml" Line="23" Column="21" />
+      <File FileName="Health/Health/MyPage.xaml.cs" Line="13" Column="22" />
+      <File FileName="Health/Health/calendar_page.cs" Line="14" Column="58" />
+      <File FileName="Health/Health/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="Health/Health/TabbedPage1.xaml" Line="1" Column="1" />
+      <File FileName="Health/Health/chart.xaml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Health" expanded="True">
+          <Node name="Health" expanded="True" selected="True">
             <Node name="Health" expanded="True">
               <Node name="controls" expanded="True" />
-              <Node name="App.xaml" expanded="True" />
-              <Node name="debute.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" />
-              <Node name="MyPage.xaml" expanded="True" selected="True" />
+              <Node name="MyPage.xaml" expanded="True" />
             </Node>
             <Node name="Health.Android" expanded="True">
               <Node name="Assets" expanded="True" />

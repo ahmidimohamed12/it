@@ -50,16 +50,6 @@
               />
                
             </StackLayout>
-            <lt:AnimationView
-                HorizontalOptions="CenterAndExpand"
-                WidthRequest="200"
-                HeightRequest="300"
-                VerticalOptions="CenterAndExpand"
-                Animation="jim.json"
-                AutoPlay="True"
-                Loop="True"
-                x:Name="anim"
-                />
               <StackLayout x:Name="oppl" Margin="0,0,0,0" HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
                 <StackLayout>
                     <pi:Pickericons

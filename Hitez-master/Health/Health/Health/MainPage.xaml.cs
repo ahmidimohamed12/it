@@ -57,7 +57,7 @@ namespace Health
             btnsearch.Clicked += (sender, e) =>
             {
 
-                if (annmin.SelectedIndex > 0)
+                if (annmin.SelectedIndex >= 0)
                 {
                     srch.IsVisible = true;
                     effi.IsEnabled = false;
@@ -90,7 +90,7 @@ namespace Health
             var gridman = (ty - 10) / 3; 
             var cl1 = ty / 3;
 
-            chrt.Chart = new Microcharts.DonutChart { Entries = en };
+            chrt.Chart = new Microcharts.LineChart { Entries = en };
             string[] v = m.Split(',');
             mas = new List<mesure>();
             for (int i = 0;i< v.Length;i++)

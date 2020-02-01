@@ -1567,3 +1567,8 @@
 /Users/ahmidimohamed/Desktop/it/Hitez-master/Health/Health/Health.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/ahmidimohamed/Desktop/it/Hitez-master/Health/Health/Health.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/ahmidimohamed/Desktop/it/Hitez-master/Health/Health/Health.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/ahmidimohamed/Desktop/it/Hitez-master/Health/Health/Health.Android/obj/Debug/android/assets/System.Globalization.dll
+/Users/ahmidimohamed/Desktop/it/Hitez-master/Health/Health/Health.Android/obj/Debug/android/assets/XamForms.Controls.Calendar.dll
+/Users/ahmidimohamed/Desktop/it/Hitez-master/Health/Health/Health.Android/obj/Debug/android/assets/XamForms.Controls.Calendar.Droid.dll
+/Users/ahmidimohamed/Desktop/it/Hitez-master/Health/Health/Health.Android/obj/Debug/android/src/crc64fd013b27b0f98839/TextDrawable.java
+/Users/ahmidimohamed/Desktop/it/Hitez-master/Health/Health/Health.Android/obj/Debug/android/src/crc64fd013b27b0f98839/CalendarButtonRenderer.java

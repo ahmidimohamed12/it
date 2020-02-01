@@ -29,9 +29,6 @@ namespace Health {
         private global::Xamarin.Forms.Button btnsearch;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Lottie.Forms.AnimationView anim;
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.StackLayout oppl;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
@@ -83,7 +80,6 @@ namespace Health {
             annmin = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Health.controls.Pickericons>(this, "annmin");
             anmax = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Health.controls.Pickericons>(this, "anmax");
             btnsearch = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "btnsearch");
-            anim = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Lottie.Forms.AnimationView>(this, "anim");
             oppl = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "oppl");
             lss = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Grid>(this, "lss");
             st1 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Grid>(this, "st1");
