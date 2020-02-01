@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{DD65A43F-227A-46E8-851F-228C5B4CC59B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Health/Health/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Health/Health/MyPage.xaml">
     <Files>
-      <File FileName="Health/Health/MainPage.xaml.cs" Line="150" Column="32" IsPinned="True" />
-      <File FileName="Health/Health/MainPage.xaml" Line="22" Column="13" />
+      <File FileName="Health/Health/MainPage.xaml.cs" Line="14" Column="2" IsPinned="True" />
+      <File FileName="Health/Health/MainPage.xaml" Line="68" Column="35" />
       <File FileName="Health/Health/debute.xaml" />
       <File FileName="Health/Health/debute.xaml.cs" />
       <File FileName="Health/Health/App.xaml.cs" />
@@ -11,6 +11,8 @@
       <File FileName="Health/Health/controls/Pickericons.cs" Line="14" Column="10" />
       <File FileName="Health/Health.Android/CustomRenderer/pickercustomrenderer.cs" Line="17" Column="1" />
       <File FileName="Health/Health.iOS/pickerRendcus.cs" Line="17" Column="7" />
+      <File FileName="Health/Health/MyPage.xaml" Line="1" Column="1" />
+      <File FileName="Health/Health/MyPage.xaml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,22 +22,26 @@
               <Node name="controls" expanded="True" />
               <Node name="App.xaml" expanded="True" />
               <Node name="debute.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" selected="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="MyPage.xaml" expanded="True" selected="True" />
             </Node>
             <Node name="Health.Android" expanded="True">
+              <Node name="Assets" expanded="True" />
               <Node name="CustomRenderer" expanded="True" />
               <Node name="Properties" expanded="True" />
               <Node name="Resources" expanded="True">
                 <Node name="drawable" expanded="True" />
               </Node>
             </Node>
-            <Node name="Health.iOS" expanded="True" />
+            <Node name="Health.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Health.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E49E0915-953D-4ABD-B9E8-012A87693881" />
+  <MonoDevelop.Ide.ItemProperties.Health.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.97CA64CE-2C20-40E6-BF22-862D3AB9A93F" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Health.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

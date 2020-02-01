@@ -51,9 +51,11 @@
                
             </StackLayout>
             <lt:AnimationView
-                HorizontalOptions="FillAndExpand"
-                VerticalOptions="FillAndExpand"
-                Animation=""
+                HorizontalOptions="CenterAndExpand"
+                WidthRequest="200"
+                HeightRequest="300"
+                VerticalOptions="CenterAndExpand"
+                Animation="jim.json"
                 AutoPlay="True"
                 Loop="True"
                 x:Name="anim"

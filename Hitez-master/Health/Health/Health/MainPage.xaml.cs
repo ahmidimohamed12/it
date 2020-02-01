@@ -19,9 +19,9 @@ namespace Health
     {
         List<int> anner = new List<int>()
         {
-            2010,2011,2012,2013,2014,2015,2016,2017,2018,2019
+            2013,2014,2015,2016,2017,2018,2019
         };
-        string m = "AT118r,M (MALE),175.0,42,81.1,28.1,16.4,12.2,4.2,20.2,44.6,44.6,34.7,57.4,26.5,24.9,0.92,3.4,40.2,1685,8,2242,199.6,108.2,199.6,120.3,108.3,105.2,101.8,94.9,94.5,28.7,23.4,17.6,14.4,12.4,10.2,4.2,3.5,16.2,8.1,77.5,57.3,35.2,28.8,25.0,18.5,20.0,10.0,0.90,0.80,8.1,16.2,1710,2008,37.9,46.3,51.5,63.0,48.6,59.4,A£@@A£@@@@@@1.7,-9.4,0.0,-9.4,74,319.4,333.2,24.9,273.1,274.8,279.5,292.1,20.3,237.1,238.7D8";
+        string m = "AT,118r,M (MALE),175.0,42,81.1,28.1,16.4,12.2,4.2,20.2,44.6,44.6,34.7,57.4,26.5,24.9,0.92,3.4,40.2,1685,8,2242,199.6,108.2,199.6,120.3,108.3,105.2,101.8,94.9,94.5,28.7,23.4,17.6,14.4,12.4,10.2,4.2,3.5,16.2,8.1,77.5,57.3,35.2,28.8,25.0,18.5,20.0,10.0,0.90,0.80,8.1,16.2,1710,2008,37.9,46.3,51.5,63.0,48.6,59.4,A£@@A£@@@@@@1.7,-9.4,0.0,-9.4,74,319.4,333.2,24.9,273.1,274.8,279.5,292.1,20.3,237.1,238.7D8";
         string op = "None,ID,";
         List<mesure> n;
         List<Entry> en = new List<Entry>()
@@ -79,18 +79,17 @@ namespace Health
             Uri l = new Uri("https://www.flaticon.com/free-icon/actualize-arrows-couple-in-circle_46520");
             Uri o = new Uri("https://cloud.heitzsystem.com/heitzfit/1000/app//images/man-standing-back.png");
             Uri mr = new Uri("https://image.freepik.com/photos-gratuite/jeune-femme-active-formation-plein-air_23-2148381886.jpg");
+
             li.Source = ImageSource.FromUri(mr);
-           // li.WidthRequest = Plugin.XamJam.Screen.CrossScreen.Current.Size.Width;
             im.Source = ImageSource.FromUri(o);
+
             anmax.ItemsSource = anner;
-            
             annmin.ItemsSource = anner;
 
             var ty = Plugin.XamJam.Screen.CrossScreen.Current.Size.Width;
-
             var gridman = (ty - 10) / 3; 
-
             var cl1 = ty / 3;
+
             chrt.Chart = new Microcharts.DonutChart { Entries = en };
             string[] v = m.Split(',');
             mas = new List<mesure>();

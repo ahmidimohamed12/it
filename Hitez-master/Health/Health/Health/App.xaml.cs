@@ -10,7 +10,7 @@ namespace Health
         {
             InitializeComponent();
 
-            MainPage = new debute();
+            MainPage = new MyPage();
         }
 
         protected override void OnStart()

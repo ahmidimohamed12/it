@@ -162,5 +162,6 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Resources\debut.json" />
+    <AndroidAsset Include="Resources\jim.json" />
   </ItemGroup>
 </Project>

@@ -77,3 +77,5 @@ C:/Users/pc/source/repos/Hitez/Health/Health/Health/obj/Debug/netstandard2.0/Xam
 /Users/ahmidimohamed/Desktop/it/Hitez-master/Health/Health/Health/obj/Debug/netstandard2.0/Health.dll
 /Users/ahmidimohamed/Desktop/it/Hitez-master/Health/Health/Health/obj/Debug/netstandard2.0/ref/Health.dll
 /Users/ahmidimohamed/Desktop/it/Hitez-master/Health/Health/Health/obj/Debug/netstandard2.0/Health.pdb
+/Users/ahmidimohamed/Desktop/it/Hitez-master/Health/Health/Health/obj/Debug/netstandard2.0/Health.csprojAssemblyReference.cache
+/Users/ahmidimohamed/Desktop/it/Hitez-master/Health/Health/Health/obj/Debug/netstandard2.0/MyPage.xaml.g.cs
