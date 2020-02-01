@@ -51,6 +51,7 @@ namespace Health
         {
             InitializeComponent();
             desca();
+            oppl.IsVisible = false;
 
             double twid = (int) Plugin.XamJam.Screen.CrossScreen.Current.Size.Width / 4;
             btnsearch.Clicked += (sender, e) =>
@@ -147,8 +148,9 @@ namespace Health
             ls.IsVisible = false;
             chrt.IsVisible = false;
             st1.IsVisible = false;
-            opp.IsVisible = false;
+            oppl.IsVisible = false;
             lbldes.IsVisible = false;
+            lss.IsVisible = false;
             bu.IsVisible = false;
             gg.IsVisible = false;
             srch.IsVisible = false;
@@ -163,7 +165,7 @@ namespace Health
             chrt.IsVisible = true;
             lss.IsVisible = true;
            st1.IsVisible = true;
-            opp.IsVisible = true;
+            oppl.IsVisible = true;
             lbldes.IsVisible = true;
             bu.IsVisible = true;
             gg.IsVisible = true;

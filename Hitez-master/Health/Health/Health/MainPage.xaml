@@ -9,6 +9,7 @@
              xmlns:pro="clr-namespace:ProgressRingControl.Forms.Plugin;assembly=ProgressRing.Forms.Plugin"
              xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
              BackgroundColor="#F3F3F3"
+             xmlns:lt="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
              xmlns:pi="clr-namespace:Health.controls"
              xmlns:xm="clr-namespace:FormsRadioButton;assembly=FormsRadioButton"
              x:Class="Health.MainPage">
@@ -49,7 +50,15 @@
               />
                
             </StackLayout>
-              <StackLayout x:Name="opp" Margin="0,0,0,0" HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+            <lt:AnimationView
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                Animation=""
+                AutoPlay="True"
+                Loop="True"
+                x:Name="anim"
+                />
+              <StackLayout x:Name="oppl" Margin="0,0,0,0" HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
                 <StackLayout>
                     <pi:Pickericons
                         Title="Debut"
@@ -68,8 +77,8 @@
                 </StackLayout>
               
             </StackLayout>
-             <StackLayout x:Name="lss" Orientation="Horizontal">
-                 <Grid HorizontalOptions="CenterAndExpand">
+             <StackLayout  Orientation="Horizontal">
+                 <Grid x:Name="lss" HorizontalOptions="CenterAndExpand">
                      <Grid.ColumnDefinitions>
                          <ColumnDefinition Width="5"/>
                          <ColumnDefinition Width="100"/>
@@ -108,7 +117,7 @@
                     <StackLayout  Grid.Column="0" Grid.Row="0" Orientation="Vertical">
                      <Label
                               HorizontalOptions="CenterAndExpand"
-                            VerticalOptions="CenterAndExpand"
+                              VerticalOptions="CenterAndExpand"
                               Text="INBODY"
                               FontAttributes="Bold"
                               TextColor="White"
